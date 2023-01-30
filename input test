@@ -5,4 +5,4 @@ if test == ("Yes"):
 elif test == ("No"):
     print("Terrible")
 else:
-    print("test")
+    print("Rerun program please!")
