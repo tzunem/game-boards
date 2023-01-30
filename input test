@@ -1,0 +1,8 @@
+test = input("Testing, are you working?")
+
+if test == ("Yes"):
+    print("Good")
+elif test == ("No"):
+    print("Terrible")
+else:
+    print("test")
