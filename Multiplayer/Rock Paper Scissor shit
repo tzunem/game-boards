@@ -1,0 +1,40 @@
+print("Rock Paper Scissors")
+print("")
+p1 = input("Player 1, Rock, Paper, or Scissors? ")
+p2 = input("Player 2, Rock, Paper, or Scissors? ")
+
+if p1 == "Rock" or "rock":
+    
+    if p2 == "Scissors" or "scissors":
+        print("Player 1 wins!")
+
+    if p2 == "Rock" or "rock":
+        print("Draw!")
+    
+    if p2 == "Paper" or "paper":
+        print("Player 2 wins!")
+
+
+if p1 == "Paper" or "paper":
+    
+    if p2 == "Rock" or "rock":
+        print("Player 1 wins!")
+
+    if p2 == "Rock" or "rock":
+        print("Draw!")
+    
+    if p2 == "Scissors" or "scissors":
+        print("Player 2 wins!")
+
+if p1 == "Scissors" or "scissor":
+    
+    if p2 == "Paper" or "paper":
+        print("Player 1 wins!")
+
+    if p2 == "Scissors" or "scissors":
+        print("Draw!")
+
+    if p2 == "Rock" or "rock":
+        print("Player 2 wins!")
+
+
